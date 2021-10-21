@@ -1,11 +1,8 @@
+
+
+
 html {
   font-size: 10px;
-}
-
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
 }
 
 #main {
@@ -23,17 +20,16 @@ html {
   border-bottom: 1px solid #D9B08C
 }
 
-@media (max-width: 460px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;    
-  }
-}
-
 h1 {
   font-size: 4rem;
   color: #E85A4F;
   margin-bottom: 0;
+}
+
+#img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #image {
@@ -42,11 +38,7 @@ h1 {
   height: auto;
   border-radius: 5px;
   border: 1px solid black;
-  
-}
-
-#img-div {
-  
+ 
 }
 
 
@@ -98,6 +90,20 @@ a:visited {
 }
 
 /* Media Query */
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;    
+  }
+}
+
 @media (max-width: 460px) {
   #img-caption {
     font-size: 1.4rem;
