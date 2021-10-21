@@ -1,0 +1,107 @@
+html {
+  font-size: 10px;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+#main {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  text-align: center;
+  color: #D1E8E2;
+  background-color: #116466;
+}
+
+.heading {
+  border-top: 1px solid #D9B08C;
+  border-bottom: 1px solid #D9B08C
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;    
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  color: #E85A4F
+  margin-bottom: 0;
+}
+
+#image {
+  max-width: 70%;
+  display: block;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+#img-div {
+  background-color: #116466;
+  padding: 10px;
+  margin: 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  color: #FFCB9A;
+}
+
+h3 {
+  margin: 50px 0;
+  text-align: center;
+  border-top: 1px solid #D9B08C;
+  border-bottom: 1px solid #D9B08C;
+}
+
+ul {
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: square;
+}
+
+
+
+.fig-caption2 {
+  padding: 0 0 20px 0;
+  color: #E98074;
+}
+
+blockquote {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  color: #D1E8E2;
+  text-align: center;
+  border-top: 1px solid #D9B08C;
+  border-bottom: 1px solid #D9B08C;
+  padding: 10px;
+  margin: 0;
+}
+
+#tribute-link {
+  color: #E98074;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #74638f;
+}
